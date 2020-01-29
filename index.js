@@ -7,9 +7,9 @@ const SELECT_ALL_INRPROFILES_QUERY = 'SELECT * FROM inr_profiles';
 const SELECT_ALL_INRRESULTS_QUERY = 'SELECT * FROM inr_levels';
 
 const connection = mysql.createConnection({
-  host: 'inrdatabase.covyw4q6mldi.us-west-2.rds.amazonaws.com',
+  host: 'seeconfidentialsheet',
   user: 'root',
-  password: 'Mysqlvikings1',
+  password: 'seeconfidentialsheet',
   database: 'innodb'
 })
 
